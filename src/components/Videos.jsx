@@ -4,6 +4,7 @@ import { Stack, Box } from "@mui/material";
 import { ChannelCard, VideoCard, Loader } from "./";
 
 const Videos = ({ videos, direction }) => {
+  // If no videos available
   if(!videos?.length) return <Loader />;
   
   return (
