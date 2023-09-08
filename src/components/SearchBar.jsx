@@ -19,6 +19,7 @@ const SearchBar = () => {
   }
 
   return (
+    // Search Button BG
     <Paper
       component={'form'}
       onSubmit={handleSubmit}
